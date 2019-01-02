@@ -1,0 +1,140 @@
+<view class="order-detail">
+
+  <view class="order-detail-box">
+
+    <view class="order-box-form">
+      <view class="order-head">
+        金额:
+      </view>
+      <view class="order-price-box form-box">
+        <view class="order-price">
+          {{orderDetail.price}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        工单状态:
+      </view>
+      <view class="order-status-box form-box">
+        <view class="order-status">
+          {{orderDetail.status}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修地址:
+      </view>
+      <view class="order-position-box form-box">
+        <view class="order-position">
+          {{curPosition.position}}
+        </view>
+        <view class="order-person">
+          <span>{{curPosition.name}}</span>
+          <span>{{curPosition.phone}}</span>
+        </view>
+      </view>
+
+      <view class="order-head">
+        具体时间:
+      </view>
+      <view class="order-time-box form-box">
+        <view class="order-time">
+          {{orderDetail.time}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修类目:
+      </view>
+      <view class="order-type-box form-box">
+        <view class="order-type">
+          {{orderDetail.type}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修描述:
+      </view>
+      <view class="order-description-box form-box">
+        <view class="order-description">
+          {{orderDetail.description}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        备注信息:
+      </view>
+      <view class="order-remark-box form-box">
+        <view class="order-remark">
+          {{orderDetail.remark}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        图片:
+      </view>
+      <view class="order-photo-box photo-box form-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/head.jpg"></image>
+      </view>
+
+      <view class="order-button-box">
+
+        <view class="order-button" bindtap="payment">
+          付款
+        </view>
+
+        <view class="order-button" bindtap="showWarnBox" wx:if="{{showCancel}}" data-url="../home_person_detail/home_person_detail">
+          取消
+        </view>
+
+        <view class="order-button" bindtap="forwardTo" wx:if="{{showReorder}}" data-url="../home_order_add/home_order_add">
+          重新下单
+        </view>
+
+        <view class="order-button" bindtap="showCommentBox(true)" wx:if="{{showComment}}">
+          评价
+        </view>
+
+      </view>
+
+      <view class="order-history-box">
+
+        <view class="order-history-head">
+          历史记录:
+        </view>
+
+        <view wx:for="{{orderDetail.history}}" class="order-history-list">
+          {{item.time}}
+          <span bindtap="forwardTo" data-url="../home_person_detail/home_person_detail">{{item.name}}</span>商户接单了
+        </view>
+
+      </view>
+
+      <view class="order-box-warn" wx:if="{{showWarn}}">
+
+        <view class="warn-box">
+          <view class="warn-head">
+            取消工单
+          </view>
+
+          <view class="warn-content">
+            确认取消工单吗?
+          </view>
+
+          <view class="warn-button">
+            <view bindtap="hideWarnBox">
+              取消
+            </view>
+            <view bindtap="handleClick">
+              确认
+            </view>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

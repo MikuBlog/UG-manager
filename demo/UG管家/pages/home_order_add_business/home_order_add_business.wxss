@@ -1,0 +1,44 @@
+.business {
+  position: relative;
+  background: #f4f4f4;
+  height: 100%;
+}
+
+.business-box {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  height: 100%;
+}
+
+.business-form-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.business-head {
+  position: relative;
+  color: #6d6d6d;
+  font-size: 35rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+}
+
+.business-house-box {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #fff;
+}
+
+.business-house-box view {
+  position: relative;
+  text-align: center;
+  margin: 15rpx 0;
+  width: 30%;
+  border: 1px solid #e1e1e1;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  background: #f7f7f7;
+  font-size: 35rpx;
+}

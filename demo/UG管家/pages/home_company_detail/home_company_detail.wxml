@@ -1,0 +1,59 @@
+<view class="company-detail">
+
+        <view class="company-detail-box">
+
+            <view class="company-box-form">
+                <view class="company-head">
+                    公司名:
+                </view>
+                <view class="company-name-box form-box">
+                    <view class="company-name">
+                        {{curCompany.name}}
+                    </view>
+                </view>
+
+                <view class="company-head">
+                    经营范围:
+                </view>
+                <view class="company-types-box form-box">
+                    <view class="company-type-first" wx:for="{{curCompany.types}}">
+                        <view class="company-type-first-head">
+                            {{item.typeName}}
+                        </view>
+                        <view class="company-type-second" wx:for="{{item.typeSecond}}">
+                            <view class="company-type-second-head">
+                                {{item.typeName}}
+                            </view>
+                            <view class="company-type-second-button">
+                                <view wx:for="{{item.list}}">
+                                    {{item}}
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+                <view class="company-head">
+                    地址:
+                </view>
+                <view class="company-position-box form-box">
+                    <view class="company-position">
+                        {{curCompany.position}}
+                    </view>
+                </view>
+
+                <view class="company-head">
+                    服务详情:
+                </view>
+                <view class="company-service-box form-box">
+                    <view class="company-service">
+                        {{curCompany.description}}
+                    </view>
+                </view>
+
+
+            </view>
+
+        </view>
+
+    </view>

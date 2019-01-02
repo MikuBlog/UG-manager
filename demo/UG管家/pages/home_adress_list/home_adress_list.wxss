@@ -1,0 +1,80 @@
+.adress {
+  position: relative;
+  background: #eef2f5;
+  height: 100%;
+}
+
+.adress-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.adress-box-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.adress-box-list>view>view {
+  position: relative;
+  background: #fff;
+  padding: 20rpx 0;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.adress-box-list  view   i {
+  position: relative;
+  margin-left: 20rpx;
+  top: -23rpx;
+  color: #333;
+}
+
+.adress-box-list  view      .right {
+  position: absolute;
+  top: 60rpx;
+  right: 30rpx;
+  color: #a7a6a6;
+}
+
+.adress-box-list  view    .content {
+  position: relative;
+  display: inline-block;
+  margin: 10rpx 0 10rpx 20rpx;
+  font-size: 17px;
+}
+
+.adress-box-list  view    .content .content-name-phone {
+  position: relative;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  color: #a7a6a6;
+}
+
+.adress-box-list  view    .content    span {
+  margin-right: 10rpx;
+}
+
+.adress-box-button {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.adress-box-button  view {
+  position: relative;
+  line-height: 100rpx;
+  flex: 1;
+}
+
+.adress-box-button   view:first-of-type {
+  background: #e7e7e7;
+  color: #8b8b8b;
+}
+
+.adress-box-button   view:last-of-type {
+  background: #33679a;
+  color: #fff;
+}

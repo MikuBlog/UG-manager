@@ -1,0 +1,85 @@
+.order-list {
+  position: relative;
+  background: #f4f4f4;
+  height: 100%;
+}
+
+.order-list-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.order-list-content {
+  position: relative;
+}
+
+.order-list-content>view>view {
+  position: relative;
+  background: #fff;
+  text-align: left;
+  padding: 20rpx 0;
+  margin: 20rpx 0;
+}
+
+.content-status {
+  position: absolute;
+  font-size: 30rpx;
+  right: 15px;
+  top: 65rpx;
+  color: #ea3e3e;
+}
+
+.order-list-content image {
+  position: relative;
+  margin-left: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  top: 5px;
+  left: 10rpx;
+}
+
+.content .content-type {
+  font-size: 30rpx;
+}
+
+.content .content-time {
+  position: relative;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #aaa;
+}
+
+.order-bottom-button {
+  position: fixed;
+  background: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: #a7a6a6;
+  bottom: 0;
+}
+
+.button-box {
+  position: relative;
+  margin: 20rpx 0 10rpx 0;
+}
+
+.button-box i {
+  font-size: 45rpx;
+  color: #a7a6a6;
+  line-height: 20px;
+}
+
+.button-box view {
+  position: relative;
+  font-size: 25rpx;
+  margin-top: 8rpx;
+}

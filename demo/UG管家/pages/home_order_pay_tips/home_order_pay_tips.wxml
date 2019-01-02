@@ -1,0 +1,14 @@
+<view class="pay-tips">
+
+  <view class="pay-box">
+
+    <view class="pay-box-image">
+      <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/theme.png"></image>
+      <view class="pay-box-image-content">
+        您存在代付费工单，请进行付费后再添加新工单
+      </view>
+    </view>
+
+  </view>
+
+</view>

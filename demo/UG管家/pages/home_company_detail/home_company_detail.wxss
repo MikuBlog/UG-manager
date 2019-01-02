@@ -1,0 +1,110 @@
+.company-detail {
+  position: relative;
+  height:1500rpx;
+  background: #f4f4f4;
+}
+
+.company-detail-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.company-box-form {
+  position: relative;
+  text-align: left;
+}
+
+.company-head {
+  position: relative;
+  color: #6d6d6d;
+  font-size: 35rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+}
+
+.company-name-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.company-name {
+  margin: 35rpx 0 35rpx 25rpx;
+  font-size: 35rpx;
+}
+
+.company-types-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.company-type-first {
+  position: relative;
+}
+
+.company-type-first-head {
+  position: relative;
+  font-size: 35rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+  color: #717271;
+}
+
+.company-type-second {
+  position: relative;
+}
+
+.company-type-second-head {
+  position: relative;
+  font-size: 35rpx;
+  margin: 25rpx 0 10rpx 80rpx;
+  color: #717271;
+}
+
+.company-type-second-button {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.company-type-second-button view {
+  position: relative;
+  text-align: center;
+  margin: 20rpx;
+  width: 25%;
+  height: 50rpx;
+  font-size: 35rpx;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  line-height: 50rpx;
+  background: #f7f7f7;
+}
+
+.company-position-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.company-position {
+  margin: 35rpx 0 35rpx 25rpx;
+  font-size: 35rpx;
+}
+
+.company-service-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.company-service {
+  margin: 35rpx 0 35rpx 25rpx;
+  font-size: 35rpx;
+}
+
+.form-box {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}

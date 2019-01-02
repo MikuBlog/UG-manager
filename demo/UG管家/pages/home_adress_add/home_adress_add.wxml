@@ -1,0 +1,36 @@
+<view class="adress-add">
+
+  <view class="adress-add-box">
+
+    <view class="adress-box-form">
+
+      <view>
+        <text for="name">姓名</text>
+        <input type="text" id="name" name="name" bindinput="getName" autocomplete="off" placeholder="请输入姓名"></input>
+      </view>
+
+      <view>
+        <text for="phone">电话</text>
+        <input type="text" id="phone" name="phone" bindinput="getPhone" autocomplete="off" placeholder="请输入电话号码"></input>
+      </view>
+
+      <view bindtap="forwardTo">
+        <text for="position">位置</text>
+        <input type="text" id="position" name="position" bindinput="getPosition" autocomplete="off" placeholder="请选择位置" readonly></input>
+        <i class="fa fa-angle-right fa-lg right"></i>
+      </view>
+    </view>
+
+    <view class="adress-box-textarea">
+      <textarea bindinput="getPositionDetail" placeholder="请输入详细地址"></textarea>
+    </view>
+
+    <view class="adress-box-button" bindtap="sendMessage">
+      确认
+    </view>
+
+    <view class="adress-add-warn"></view>
+
+  </view>
+
+</view>

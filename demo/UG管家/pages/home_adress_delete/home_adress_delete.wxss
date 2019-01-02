@@ -1,0 +1,154 @@
+.adress-delete {
+  position: relative;
+  background: #eef2f5;
+  height: 100%;
+}
+
+.adress-delete-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.adress-box-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.list {
+  position: relative;
+  background: #fff;
+  padding: 20rpx 0;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.adress-list-image {
+  position: absolute;
+  text-align: center;
+  top: 55rpx;
+  display: inline-block;
+  margin-left: 20rpx;
+  border-radius: 50%;
+  height: 35rpx;
+  width: 35rpx;
+  border: 1px solid #cacaca;
+}
+
+.adress-list-image  .image {
+  position: relative;
+  top: -4rpx;
+  left: -2rpx;
+  width: 110%;
+  height: 110%;
+  line-height: 35rpx;
+}
+
+.right {
+  position: absolute;
+  top: 50rpx;
+  right: 20rpx;
+  color: #00ff15;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
+  margin: 9rpx 0 5rpx 80rpx;
+  font-size: 30rpx;
+}
+
+.content-name-phone {
+  position: relative;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #a7a6a6;
+}
+
+.content-name-phone   span {
+  margin-right: 10rpx;
+}
+
+.adress-box-button {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.adress-box-button view {
+  position: relative;
+  line-height: 100rpx;
+  flex: 1;
+}
+
+.adress-box-button  view:first-of-type {
+  background: #e7e7e7;
+  color: #8b8b8b;
+}
+
+.adress-box-button  view:last-of-type {
+  background: #33679a;
+  color: #fff;
+}
+
+.adress-box-warn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.warn-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 580rpx;
+  height: 300rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.warn-head {
+  position: relative;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+}
+
+.warn-content {
+  position: relative;
+  color: #989898;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.warn-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #dfdfe1;
+  font-size: 35rpx;
+}
+
+.warn-button view {
+  position: relative;
+  flex: 1;
+  line-height: 80rpx;
+}
+
+.warn-button  view:first-of-type {
+  color: #a9a9a9;
+}
+
+.warn-button  view:last-of-type {
+  color: #07c319;
+}

@@ -1,0 +1,37 @@
+<view class="adress">
+
+  <view class="adress-box">
+
+    <view class="adress-box-list">
+      <view>
+        <view wx:for="{{positionList}}" bindtap="forwardTo" data-url="../home_adress_add/home_adress_add">
+          <i class="fa fa-map-marker fa-lg fa-icon"></i>
+          <view class="content">
+
+            <view class="content-position">
+              {{item.position}}
+            </view>
+
+            <view class="content-name-phone">
+              <span>{{item.name}}</span>
+              <span>{{item.phone}}</span>
+            </view>
+
+          </view>
+          <i class="fa fa-angle-right fa-lg right"></i>
+        </view>
+      </view>
+    </view>
+
+    <view class="adress-box-button">
+      <view bindtap="forwardTo" data-url="../home_adress_delete/home_adress_delete">
+        删除
+      </view>
+      <view bindtap="forwardTo" data-url="../home_adress_add/home_adress_add">
+        添加
+      </view>
+    </view>
+
+  </view>
+
+</view>

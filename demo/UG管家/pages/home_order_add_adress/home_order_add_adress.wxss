@@ -1,0 +1,57 @@
+.adress {
+  position: relative;
+  background: #eef2f5;
+  height: 100%;
+}
+
+.adress-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.adress-box-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.list {
+  position: relative;
+  background: #fff;
+  padding: 20rpx 0;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.list   i {
+  position: relative;
+  margin-left: 20rpx;
+  top: -26rpx;
+  color: #333;
+}
+
+.list    .right {
+  position: absolute;
+  top: 60rpx;
+  right: 20rpx;
+  color: #a7a6a6;
+}
+
+.list   .content {
+  position: relative;
+  display: inline-block;
+  margin: 10rpx 0 10rpx 20rpx;
+  font-size: 35rpx;
+}
+
+.list   .content  .content-name-phone {
+  position: relative;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  color: #a7a6a6;
+}
+
+.content-name-phone  span {
+  margin-right: 10rpx;
+}

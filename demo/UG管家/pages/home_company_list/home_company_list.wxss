@@ -1,0 +1,126 @@
+.company {
+  position: relative;
+  background: #f4f4f4;
+  height: 100%;
+}
+
+.company-box {
+  position: relative;
+  text-align: left;
+  height: 100%;
+  overflow: hidden;
+}
+
+.company-box-button {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  text-align: center;
+  background: #f4f4f4;
+  display: flex;
+}
+
+.company-box-button .button {
+  flex: 1;
+  color: #7b7b7b;
+  border: 1px solid #e6e6e6;
+}
+
+.company-box-button .button:first-of-type {
+  border-left: none;
+}
+
+.company-box-button .button:last-of-type {
+  border-right: none;
+}
+
+.company-box-list {
+  position: relative;
+  overflow: hidden;
+  margin-top: 100rpx;
+}
+
+.company-box-list>view>view {
+  position: relative;
+  background: #fff;
+  padding: 20rpx 0;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.company-box-list .company-logo {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #aaa;
+  margin-left: 15rpx;
+  line-height: 50rpx;
+}
+
+.company-logo image {
+  vertical-align: middle;
+  width: 100%;
+  height:100%;
+}
+
+.content {
+  position: relative;
+  top: -10rpx;
+  left: 10rpx;
+  display: inline-block;
+  font-size: 30rpx;
+}
+
+.company-name {
+  position: relative;
+}
+
+.company-position {
+  position: relative;
+  margin-top: 15rpx;
+  color: #a7a6a6;
+}
+
+.company-position span {
+  margin-right: 5rpx;
+}
+
+.company-distance {
+  position: absolute;
+  right: 10rpx;
+  top: 25rpx;
+  font-size: 30rpx;
+  color: #9f9f9f;
+}
+
+.company-bottom-button {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  margin-top: 100rpx;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  color: #a7a6a6;
+}
+
+.company-bottom-button .button-box {
+  position: relative;
+  margin: 20rpx 0 10rpx 0;
+}
+
+.button-box i {
+  font-size: 45rpx;
+  color: #a7a6a6;
+  line-height: 20rpx;
+}
+
+.button-box  view {
+  position: relative;
+  font-size: 25rpx;
+  margin-top: 8rpx;
+}

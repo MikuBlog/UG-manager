@@ -1,0 +1,38 @@
+.pay-tips {
+  position: relative;
+  height: 100%;
+}
+
+.pay-box {
+  position: relative;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  overflow: hidden;
+}
+
+.pay-box-image {
+  position: absolute;
+  top: -250rpx;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.pay-box-image image {
+  width: 90%;
+  height: 90%;
+}
+
+.pay-box-image-content {
+  position: relative;
+  margin-top: 30rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+  font-size: 14px;
+  color: #858988;
+}

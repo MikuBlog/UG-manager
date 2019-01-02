@@ -1,0 +1,99 @@
+.person {
+  position: relative;
+  height: 1000rpx;
+}
+
+.person-box {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+}
+
+.person-box-background {
+  position: relative;
+  overflow: hidden;
+  background-color: #5e97cd;
+}
+
+.person-box-image {
+  position: relative;
+  display: inline-block;
+  margin: 50rpx 0 10rpx 0;
+  width: 150rpx;
+  height: 150rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.person-box-image image {
+  width: 100%;
+  height: 100%;
+}
+
+.person-box-content {
+  position: relative;
+  margin-bottom: 50rpx;
+  color: #fff;
+}
+
+.person-box-list {
+  position: relative;
+  line-height: 100rpx;
+  text-align: left;
+}
+
+.person-box-list view {
+  position: relative;
+  border-bottom: 1px solid #c7c7cc;
+}
+
+.person-box-list  .fa-icon {
+  position: absolute;
+  left: 25rpx;
+  top: 35rpx;
+  font-size: 45rpx;
+  color: #464646;
+}
+
+.person-box-list  span {
+  font-size: 35rpx;
+  margin-left: 80rpx;
+  color: #464646;
+}
+
+.person-box-list  .fa-angle-right {
+  position: absolute;
+  top: 32rpx;
+  right: 20px;
+  color: #c7c7cc;
+}
+
+.person-bottom-button {
+  position: fixed;
+  width: 100%;
+  margin-top: 100rpx;
+  bottom: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  color: #a7a6a6;
+  border-top: 1rpx solid #c7c7cc;
+}
+
+.person-bottom-button .button-box {
+  position: relative;
+  margin: 25rpx 0 15rpx 0;
+}
+
+.person-bottom-button  i {
+  font-size: 45rpx;
+  color: #a7a6a6;
+  line-height: 20px;
+}
+
+.person-bottom-button     view {
+  position: relative;
+  font-size: 25rpx;
+  margin-top: 8rpx;
+}

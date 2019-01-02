@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home_order_photo/home_order_photo",
+    "pages/home_adress_add/home_adress_add",
+    "pages/home_adress_delete/home_adress_delete",
+    "pages/home_adress_list/home_adress_list",
+    "pages/home_business_filter/home_business_filter",
+    "pages/home_company_detail/home_company_detail",
+    "pages/home_order_add/home_order_add",
+    "pages/home_order_add_adress/home_order_add_adress",
+    "pages/home_order_add_business/home_order_add_business",
+    "pages/home_order_detail/home_order_detail",
+    "pages/home_order_list/home_order_list",
+    "pages/home_order_photo_tips/home_order_photo_tips",
+    "pages/home_person_detail/home_person_detail",
+    "pages/worker_personal_center/worker_personal_center",
+    "pages/home_personal_center/home_personal_center",
+    "pages/worker_order_detail/worker_order_detail",
+    "pages/worker_order_list/worker_order_list",
+    "pages/home_order_pay_tips/home_order_pay_tips",
+    "pages/home_company_list/home_company_list",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,135 @@
+<view class="worker-order-detail">
+
+  <view class="order-detail-box">
+
+    <view class="order-box-form">
+
+      <view class="order-head">
+        工单状态:
+      </view>
+      <view class="order-status-box form-box">
+        <view class="order-status">
+          {{orderDetail.status}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修地址:
+      </view>
+      <view class="order-position-box form-box">
+        <view class="order-position">
+          {{curPosition.position}}
+        </view>
+        <view class="order-person">
+          <span>{{curPosition.name}}</span>
+          <span>{{curPosition.phone}}</span>
+        </view>
+      </view>
+
+      <view class="order-head">
+        预约时间:
+      </view>
+      <view class="order-time-box form-box">
+        <view class="order-time">
+          {{orderDetail.time}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修类目:
+      </view>
+      <view class="order-type-box form-box">
+        <view class="order-type">
+          {{orderDetail.type}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        维修描述:
+      </view>
+      <view class="order-description-box form-box">
+        <view class="order-description">
+          {{orderDetail.description}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        备注信息:
+      </view>
+      <view class="order-remark-box form-box">
+        <view class="order-remark">
+          {{orderDetail.remark}}
+        </view>
+      </view>
+
+      <view class="order-head">
+        图片:
+      </view>
+      <view class="order-photo-box photo-box form-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/head.jpg"></image>
+      </view>
+
+      <view class="order-head">
+        金额:
+      </view>
+      <view class="order-setprice-box form-box">
+        <input type="number" v-model="price" name="price" id="name" placeholder="请输入金额"></input>
+      </view>
+
+      <view class="order-button-box">
+
+        <view class="order-button" bindtap="showWarnBox('收款方式','确认在线收款吗?','paymentOnline')" v-show="showOnline">
+          在线收款
+        </view>
+
+        <view class="order-button" bindtap="showWarnBox('收款方式','确认线下收款吗?')" v-show="showOutline">
+          线下收款
+        </view>
+
+        <view class="order-button" bindtap="showWarnBox('取消工单','确认取消工单吗?')" v-show="showCancel">
+          取消
+        </view>
+
+      </view>
+
+      <view class="order-history-box">
+
+        <view class="order-history-head">
+          历史记录:
+        </view>
+
+        <view v-for="items in (orderDetail.history)" class="order-history-list">
+          {{items.time}}
+          <span bindtap="forwardTo('/home_person_detail')">{{items.name}}</span>商户接单了
+        </view>
+
+      </view>
+
+      <view class="order-box-warn" v-show="showWarn">
+
+        <view class="warn-box">
+          <view class="warn-head">
+            {{firstLine}}
+          </view>
+
+          <view class="warn-content">
+            {{secondLine}}
+          </view>
+
+          <view class="warn-button">
+            <view bindtap="handleClick('cancel')">
+              取消
+            </view>
+            <view bindtap="handleClick('ensure')">
+              确认
+            </view>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

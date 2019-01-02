@@ -1,0 +1,62 @@
+.order-photo {
+  position: relative;
+  height: 100%;
+}
+
+.photo-box {
+  position: relative;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  overflow: hidden;
+}
+
+.photo-box-image {
+  position: absolute;
+  top:-450rpx;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.photo-box-image image {
+  width: 90%;
+  height: 90%;
+}
+
+.photo-box-image-content {
+  position: relative;
+  margin-top: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #858988;
+}
+
+.photo-box-button {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 30px 0;
+}
+
+.photo-box-button view {
+  position: relative;
+  margin: auto;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #33769b;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.photo-box-button view:last-of-type {
+  margin-top: 10px;
+  background-color: #eaeaea;
+  color: #33679b;
+}

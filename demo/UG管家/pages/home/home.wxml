@@ -1,0 +1,105 @@
+<view class="home">
+
+  <view class="home-box">
+
+    <view class="home-box-background">
+      <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homepic.png" class="image"></image>
+    </view>
+
+    <view class="home-box-button">
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <view class="button-box-icon first">
+          <i class="fa fa-mobile-phone fa-lg"></i>
+        </view>
+        <view class="button-box-content">手机维修</view>
+      </view>
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <view class="button-box-icon second">
+          <i class="fa fa-desktop fa-lg"></i>
+        </view>
+        <view class="button-box-content">电脑维修</view>
+      </view>
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <view class="button-box-icon third">
+          <i class="fa fa-shopping-basket fa-lg"></i>
+        </view>
+        <view class="button-box-content">家电维修</view>
+      </view>
+    </view>
+
+    <view class="home-box-help">
+
+      <view class="help-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homepeople.png" class="first"></image>
+      </view>
+
+      <view class="help-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homeperson.png" class="second"></image>
+      </view>
+
+    </view>
+
+    <view class="home-box-background-second">
+      <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homespeed.png" alt=""></image>
+    </view>
+
+    <view class="home-show-message">
+
+      <view class="message-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homeconsultation.png"></image>
+        <view class="message-box-content">
+          免费咨询
+        </view>
+      </view>
+
+      <view class="message-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homeguarantee.png"></image>
+        <view class="message-box-content">
+          维修保障
+        </view>
+      </view>
+
+      <view class="message-box">
+        <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/homeprice.png"></image>
+        <view class="message-box-content">
+          价格公道
+        </view>
+      </view>
+
+    </view>
+
+    <view class="home-bottom-button">
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <i class="fa fa-gavel fa-lg"></i>
+        <view class="button-box-content">
+          我要维修
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_list/home_order_list">
+        <i class="fa fa-file-text fa-lg"></i>
+        <view class="button-box-content">
+          工单列表
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_company_list/home_company_list">
+        <i class="fa fa-telegram fa-lg"></i>
+        <view class="button-box-content">
+          周边服务
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_personal_center/home_personal_center">
+        <i class="fa fa-user fa-lg"></i>
+        <view class="button-box-content">
+          个人中心
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

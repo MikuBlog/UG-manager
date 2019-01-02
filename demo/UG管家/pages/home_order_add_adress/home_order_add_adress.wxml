@@ -1,0 +1,28 @@
+<view class="adress">
+
+  <view class="adress-box">
+
+    <view class="adress-box-list">
+      <view>
+        <view wx:for="{{positionList}}" bindtap="getAdress" class="list" data-index="{{index}}">
+          <i class="fa fa-map-marker fa-lg fa-icon"></i>
+          <view class="content">
+
+            <view class="content-position">
+              {{item.position}}
+            </view>
+
+            <view class="content-name-phone">
+              <span>{{item.name}}</span>
+              <span>{{item.phone}}</span>
+            </view>
+
+          </view>
+          <i class="fa fa-angle-right fa-lg right"></i>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

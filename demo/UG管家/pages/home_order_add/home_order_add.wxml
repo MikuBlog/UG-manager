@@ -1,0 +1,106 @@
+<view class="order-add">
+
+  <view class="order-add-box">
+
+    <view class="order-box-form">
+
+      <view class="form-head">
+        维修地址:
+      </view>
+      <view class="form-position-box" bindtap="forwardTo" data-url="../home_order_add_adress/home_order_add_adress">
+        <view class="form-warn" wx:if="{{!curPosition.position}}">
+          请选择地址
+        </view>
+        <view class="form-position" wx:if="{{curPosition.position}}">
+          {{curPosition.position}}
+        </view>
+        <view class="form-person" wx:if="{{curPosition.position}}">
+          <span>{{curPosition.name}}</span>
+          <span>{{curPosition.phone}}</span>
+        </view>
+        <i class="fa fa-angle-right fa-lg right"></i>
+      </view>
+
+      <view class="form-head">
+        具体时间:
+      </view>
+      <view class="form-time-box form-box" bindtap="showTimeBox">
+        <view class="form-time">
+          {{pickerValue | formatDate}}
+        </view>
+        <i class="fa fa-angle-right fa-lg right"></i>
+      </view>
+
+      <view class="form-head">
+        维修类目:
+      </view>
+      <view class="form-type-box form-box" bindtap="forwardTo" data-url="../home_order_add_business/home_order_add_business">
+        <view class="form-type">
+          {{type}}
+        </view>
+        <i class="fa fa-angle-right fa-lg right"></i>
+      </view>
+
+      <view class="form-button">
+
+        <view wx:for="{{types}}" bindtap="getType">
+          {{item}}
+        </view>
+
+      </view>
+
+      <view class="form-head">
+        维修描述:
+      </view>
+      <view class="form-description-box form-box">
+        <textarea placeholder="请输入维修描述" v-model="description"></textarea>
+      </view>
+
+      <view class="form-head">
+        备注信息:
+      </view>
+      <view class="form-remark-box form-box">
+        <textarea placeholder="请输入备注信息" v-model="remark"></textarea>
+      </view>
+
+      <view class="form-head">
+        上传图片:
+      </view>
+      <view class="form-photo-box form-box">
+        <view class="form-photo-add">
+          <i class="fa fa-plus fa-lg"></i>
+        </view>
+      </view>
+
+      <view class="form-button-sure" bindtap='forwardTo' data-url="../home_order_detail/home_order_detail">
+        确认
+      </view>
+
+      <view class="order-box-warn" wx:if="{{showWarn}}">
+
+        <view class="order-warn-box">
+          <view class="warn-head">
+            删除图片
+          </view>
+
+          <view class="warn-content">
+            确认删除所上传的图片吗?
+          </view>
+
+          <view class="warn-button">
+            <view bindtap="hideWarnBox">
+              取消
+            </view>
+            <view bindtap="handleClick">
+              确认
+            </view>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+  </view>

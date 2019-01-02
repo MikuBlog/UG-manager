@@ -1,0 +1,30 @@
+<view class="business-filter">
+
+        <view class="business-filter-box">
+
+            <view class="business-types-box form-box">
+                <view class="business-type-first" wx:for="{{types}}">
+                    <view class="business-type-first-head">
+                        {{item.typeName}}
+                    </view>
+                    <view class="business-type-second" wx:for="{{item.typeSecond}}">
+                        <view class="business-type-second-head">
+                            <span>{{item.typeName}}</span><i class="fa fa-angle-right fa-lg"></i>
+                        </view>
+                        <view class="business-type-second-button">
+                            <view wx:for="{{item.list}}" bindtap="handleClick" class="button">
+                                {{item}}
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+
+            <view class="business-box-button">
+                <view bindtap="backTo">取消</view>
+                <view bindtap="saveTypeListSelected">确认</view>
+            </view>
+
+        </view>
+
+    </view>

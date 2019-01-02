@@ -1,0 +1,101 @@
+.business-filter {
+  position: relative;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.business-filter-box {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 300rpx;
+}
+
+.business-types-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.business-type-first {
+  position: relative;
+  background: #f4f4f4;
+}
+
+.business-type-first-head {
+  position: relative;
+  font-size: 30rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+  color: #717271;
+}
+
+.business-type-second {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.business-type-second-head {
+  position: relative;
+  font-size: 30rpx;
+  color: #000;
+  border: 1px solid #ededed;
+  border-left: none;
+  border-right: none;
+}
+
+.business-type-second-head   span {
+  display: inline-block;
+  margin: 25rpx 0 25rpx 25rpx;
+}
+
+.business-type-second-head i {
+  position: absolute;
+  right: 15rpx;
+  top: 30rpx;
+  color: #c9c2c2;
+}
+
+.business-type-second-button {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.business-type-second-button view {
+  position: relative;
+  text-align: center;
+  margin: 10rpx 0;
+  width: 30%;
+  height: 60rpx;
+  font-size: 30rpx;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+  background: #f7f7f7;
+}
+
+.business-box-button {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.business-box-button view {
+  position: relative;
+  line-height: 100rpx;
+  flex: 1;
+}
+
+.business-box-button  view:first-of-type {
+  background: #e7e7e7;
+  color: #8b8b8b;
+}
+
+.business-box-button view:last-of-type {
+  background: #33679a;
+  color: #fff;
+}

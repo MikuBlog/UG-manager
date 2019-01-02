@@ -1,0 +1,110 @@
+.adress-add {
+  position: relative;
+  background: #eef2f5;
+  height: 100%;
+}
+
+.adress-add-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.adress-box-form {
+  position: relative;
+  margin: auto;
+  margin-top:50rpx;
+  overflow: hidden;
+  background: white;
+  width: 90%;
+}
+
+.adress-box-form>view {
+  position: relative;
+  margin: 10px 0;
+}
+
+.adress-box-form text {
+  position: absolute;
+  z-index:1;
+  width:100rpx;
+  top:25rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.adress-box-form view input {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  width: 75%;
+  font-size: 30rpx;
+  padding:20rpx 0 20rpx 33%;
+  color: #cccbcb;
+  border-bottom: 1px solid #c5c5c5;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+.adress-box-form  view  #position {
+  border: none;
+}
+
+.adress-box-form  view  .right {
+  position: absolute;
+  top: 25rpx;
+  right: 30rpx;
+  color: #a7a6a6;
+}
+
+.form-button {
+  position: relative;
+  margin: auto;
+  width: 85%;
+  line-height: 50px;
+  background-color: #7db2e7;
+  color: #fcfdfd;
+  border-radius: 5px;
+}
+
+.adress-box-textarea {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  height: 100px;
+  background:white;
+}
+
+.adress-box-textarea textarea {
+  font-size: 17px;
+  line-height: 35rpx;
+  text-indent: 10px;
+  outline: none;
+  resize: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  color: #cccbcb;
+}
+
+.adress-box-button {
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #33769b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.adress-add-warn {
+  position: absolute;
+  width: 100%;
+  margin-top: 20px;
+  color: red;
+}

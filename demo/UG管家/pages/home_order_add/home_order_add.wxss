@@ -1,0 +1,236 @@
+.order-add {
+  position: relative;
+  background: #f4f4f4;
+}
+
+.order-add-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.order-box-form {
+  position: relative;
+  text-align: left;
+}
+
+.form-head {
+  position: relative;
+  color: #6d6d6d;
+  font-size: 35rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+}
+
+.form-position-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.form-position {
+  margin: 14rpx 0 14rpx 25rpx;
+  font-size: 35rpx;
+}
+
+.form-person {
+  margin: 14rpx 0 20rpx 25rpx;
+  font-size: 30rpx;
+  color: #9e9e9e;
+}
+
+.form-person span {
+  margin-right: 30rpx;
+}
+
+.form-warn {
+  font-size: 35rpx;
+  margin: 40rpx 0 40rpx 25rpx;
+  color: #9e9e9e;
+}
+
+.form-time-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.form-time-box .form-time {
+  font-size: 35rpx;
+  margin: 40rpx 0 40rpx 30rpx;
+  color: #9e9e9e;
+}
+
+.form-type-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.form-type {
+  font-size: 35rpx;
+  margin: 40rpx 0 40rpx 30rpx;
+  color: #9e9e9e;
+}
+
+.form-button {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-button view {
+  position: relative;
+  text-align: center;
+  margin-top: 30rpx;
+  width: 30%;
+  height: 60rpx;
+  font-size: 35rpx;
+  color: #9b9b9b;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+}
+
+.form-description-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  height: 300rpx;
+}
+
+.form-description-box textarea {
+  text-indent: 25rpx;
+  line-height: 25rpx;
+  font-size: 35rpx;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  color: #9e9e9e;
+}
+
+.form-remark-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  height: 300rpx;
+}
+
+.form-remark-box textarea {
+  text-indent: 25rpx;
+  line-height: 25rpx;
+  font-size: 35rpx;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  color: #9e9e9e;
+}
+
+.form-photo-box {
+  position: relative;
+  background: #fff;
+  height: 100px;
+}
+
+.form-photo-box .form-photo-add {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #d7d9d8;
+  margin: 38rpx 0 0 30rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+
+.form-photo-add i {
+  color: #d7d9d8;
+  line-height: 130rpx;
+  font-size: 60rpx;
+}
+
+.form-button-sure {
+  position: relative;
+  text-align: center;
+  margin: 40rpx auto;
+  width: 90%;
+  line-height: 100rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  background-color: #33769b;
+  color: #fff;
+}
+
+.order-box-warn {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.order-warn-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 580rpx;
+  height: 300rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.warn-head {
+  position: relative;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+}
+
+.warn-content {
+  position: relative;
+  color: #989898;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.warn-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  font-size: 35rpx;
+  border-top: 1px solid #dfdfe1;
+}
+
+.warn-button view {
+  position: relative;
+  flex: 1;
+  line-height: 80rpx;
+}
+
+.warn-button view:first-of-type {
+  color: #a9a9a9;
+}
+
+.warn-button view:last-of-type {
+  color: #07c319;
+}
+
+.right {
+  position: absolute;
+  color: #c4c5c9;
+  top: 40%;
+  right: 10px;
+}
+
+.form-box {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}

@@ -1,0 +1,95 @@
+.person-detail {
+  position: relative;
+  background: #f4f4f4;
+}
+
+.person-detail-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.person-box-form {
+  position: relative;
+  text-align: left;
+}
+
+.person-head {
+  position: relative;
+  color: #6d6d6d;
+  font-size: 35rpx;
+  margin: 35rpx 0 35rpx 25rpx;
+}
+
+.person-number-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.person-number {
+  margin: 35rpx 0 35rpx 25rpx;
+  font-size: 35rpx;
+  color: #9e9e9e;
+}
+
+.person-name-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.person-name {
+  font-size: 35rpx;
+  margin: 35rpx 0 35rpx 25rpx;
+  color: #9e9e9e;
+}
+
+.person-phone-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.person-phone {
+  font-size: 35rpx;
+  margin: 35rpx 0 35rpx 25rpx;
+  color: #9e9e9e;
+}
+
+.person-id-box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.person-id {
+  font-size: 35rpx;
+  margin: 35rpx 0 35rpx 25rpx;
+  color: #9e9e9e;
+}
+
+.photo-box {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  height: 350rpx;
+  line-height: 350rpx;
+}
+
+.photo-box image {
+  position: relative;
+  height: 300rpx;
+  width: 300rpx;
+  vertical-align: middle;
+}
+
+.person-photo-back-box {
+  margin-bottom: 50rpx;
+}
+
+.form-box {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}

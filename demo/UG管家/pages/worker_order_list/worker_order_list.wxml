@@ -1,0 +1,44 @@
+<view class="order-list">
+
+  <view class="order-list-box">
+
+    <view class="order-list-content">
+      <view>
+        <view wx:for="{{orderList}}" bindtap="forwardTo" data-item="{{item}}" data-url="../worker_order_detail/worker_order_detail">
+          <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/repair.png"></image>
+          <view class="content">
+            <view class="content-type">
+              {{item.type}}
+            </view>
+            <view class="content-time">
+              {{item.time}}
+            </view>
+          </view>
+          <view class="content-status">
+            {{item.status}}
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="order-bottom-button">
+
+      <view class="button-box" bindtap="forwardTo" data-url="../worker_order_list/worker_order_list">
+        <i class="fa fa-file-text fa-lg"></i>
+        <view class="button-box-content">
+          工单列表
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../worker_personal_center/worker_personal_center">
+        <i class="fa fa-user fa-lg"></i>
+        <view class="button-box-content">
+          个人中心
+        </view>
+      </view>
+
+    </view>
+
+</view>
+
+</view>

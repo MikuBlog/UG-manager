@@ -1,0 +1,64 @@
+<view class="company">
+
+  <view class="company-box">
+
+
+    <view class="company-box-button">
+      <view class="button" bindtap="showCommentBox">
+        距离排序
+      </view>
+      <view class="button" bindtap="forwardTo">
+        类目筛选
+      </view>
+    </view>
+
+    <view class="company-box-list">
+      <view>
+        <view wx:for="{{companyList}}" bindtap="forwardTo" data-url="../home_company_detail/home_company_detail">
+          <view class="company-logo">
+            <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/theme.png"></image>
+          </view>
+          <view class="content">
+            <view class="company-name">{{item.name}}</view>
+            <view class="company-position">{{item.position}}</view>
+          </view>
+          <view class="company-distance">{{item.distance}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="company-bottom-button">
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_photo/home_order_photo">
+        <i class="fa fa-gavel fa-lg"></i>
+        <view class="button-box-content">
+          我要维修
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_order_list/home_order_list">
+        <i class="fa fa-file-text fa-lg" bindtap="forwardTo('/home_order_list')"></i>
+        <view class="button-box-content">
+          工单列表
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_company_list/home_company_list">
+        <i class="fa fa-telegram fa-lg" bindtap="forwardTo('/home_company_list')"></i>
+        <view class="button-box-content">
+          周边服务
+        </view>
+      </view>
+
+      <view class="button-box" bindtap="forwardTo" data-url="../home_personal_center/home_personal_center">
+        <i class="fa fa-user fa-lg"></i>
+        <view class="button-box-content">
+          个人中心
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

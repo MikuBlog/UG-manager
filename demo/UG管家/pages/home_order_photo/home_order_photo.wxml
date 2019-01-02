@@ -1,0 +1,22 @@
+<view class="order-photo">
+
+  <view class="photo-box">
+
+    <view class="photo-box-image">
+      <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/theme.png"></image>
+      <view class="photo-box-image-content ">
+        请点击"拍照 "对维修设备进行拍照或选择照片，UG管家将自动填写工单
+      </view>
+    </view>
+
+    <view class="photo-box-button ">
+      <view bindtap="takePhoto">
+        拍摄
+      </view>
+      <view bindtap="forwardTo" data-url="../home_order_add/home_order_add">
+        跳过
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,62 @@
+<view class="adress-delete">
+
+  <view class="adress-delete-box">
+
+    <view class="adress-box-list">
+      <view>
+        <view wx:for="{{positionList}}" bindtap="isDelete" class="list" data-index="{{index}}" data-justify="{{item.isSelected}}">
+          <view class="adress-list-image">
+            <image src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/UG%E7%AE%A1%E5%AE%B6/images/check.png" class="image" wx:if="{{item.isSelected}}"></image>
+          </view>
+          <view class="content">
+
+            <view class="content-position">
+              {{item.position}}
+            </view>
+
+            <view class="content-name-phone">
+              <span>{{item.name}}</span>
+              <span>{{item.phone}}</span>
+            </view>
+
+          </view>
+          <i class="fa fa-check fa-lg right" wx:if="{{item.isSelected}}"></i>
+        </view>
+      </view>
+    </view>
+
+    <view class="adress-box-button">
+      <view bindtap="backTo">
+        取消
+      </view>
+      <view bindtap="showWarnBox">
+        确定
+      </view>
+    </view>
+
+    <view class="adress-box-warn" style="display:{{showWarn}}">
+
+      <view class="warn-box">
+        <view class="warn-head">
+          删除地址
+        </view>
+
+        <view class="warn-content">
+          确认删除所选地址吗?
+        </view>
+
+        <view class="warn-button">
+          <view bindtap="hideWarn">
+            取消
+          </view>
+          <view bindtap="handleClick">
+            确认
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>
